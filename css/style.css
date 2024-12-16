@@ -1,17 +1,17 @@
 body{
     font-family: "Cormorant Garamond", serif;
     background-color: #f4f4f4;
-    margin: 0; /* Elimina los márgenes predeterminados del navegador */
-    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; 
+    padding: 0; 
     
 }
 header {
-    position: fixed; /* Fija el header en su posición actual */
-    top: 0;          /* Asegura que esté pegado al borde superior */
-    left: 0;         /* Alinea el header al borde izquierdo */
-    width: 100%;     /* Hace que ocupe todo el ancho de la ventana */
-    z-index: 1030;   /* Asegura que quede encima del resto del contenido */
-    box-shadow: 0 2px 5px rgba(80, 78, 78, 0.1); /* Añade una sombra ligera para resaltarlo */
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;     
+    z-index: 1030;   
+    box-shadow: 0 2px 5px rgba(80, 78, 78, 0.1); 
 }
 .navbar-brand img {
     width: 50px;
@@ -135,7 +135,7 @@ header {
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
-    backface-visibility: hidden; /* Esconde la cara trasera */
+    backface-visibility: hidden; 
     transition: transform 0.6s ease;
 }
 
