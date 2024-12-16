@@ -289,25 +289,33 @@ footer {
 }
 
 
-.footer-container {
+.footer-contai {
     max-width: 800px; 
     margin: 0 auto; 
 }
 
 @media (max-width: 768px) {
+    footer
+    {
+     text-align: center;
+     width: 100%;
+    }
     body{
         font-size: 15px;
     }
     .clientes-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-        gap: 15px; /* Espaciado entre los elementos */
-        justify-items: center; /* Centra los elementos horizontalmente */
-        align-items: center; /* Centra los elementos verticalmente */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; 
+        justify-items: center; 
+        align-items: center; 
     }
-
     .carr img {
-       
+        max-width: 100px;
         height: auto;
+    }
+    .container
+    {
+         width: 100%;
     }
 }
