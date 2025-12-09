@@ -13,7 +13,9 @@ pipeline {
             steps {
                 echo '>> 1. Obteniendo codigo desde GitHub...'
                 // Usa las credenciales almacenadas en Jenkins para clonar tu repositorio
-                git branch: 'main', credentialsId: env.GITHUB_CREDS, url: 'https://github.com/CATUMA/High-Technolgy-Support.git'
+                git branch: 'main', 
+                    credentialsId: 'github-creds', // Usa el ID de tu credencial
+                    url: 'https://github.com/CATUMA/High-Technolgy-Support.git' // Usa tu URL
             }
         }
         
